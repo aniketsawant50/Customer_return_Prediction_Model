@@ -65,12 +65,25 @@ Models were evaluated using:
 - Precision  
 - Recall  
 - F1-score  
-- Confusion Matrix  
+- Confusion Matrix
+
+### 6. Hyperparameter Tuning
+- Used GridSearchCV
+- 5-Fold Cross Validation
+- Optimized parameters:
+- n_estimators
+- max_depth
+- min_samples_split
+- Evaluation metric: Recall
 
 ---
 
 ## Final Model
 Random Forest performed the best among all models and was selected as the final model due to its high accuracy and robustness.
+Random Forest Classifier (Tuned with GridSearchCV)
+Reduced overfitting
+Improved generalization
+Optimized recall for better prediction of returning customers
 
 ---
 
